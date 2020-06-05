@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title style="font-family:fantasy">Twittler</title>
     <link href="index.css" rel="stylesheet" type="text/css">"
-    <style>body {font-family: 'NanumBarunGothic', 'serif';}    </style>
+    <style>body {font-family: 'NanumBarunGothic', 'serif';}</style>
 
 </head>
 <body>
@@ -18,7 +18,7 @@
             <button class="homebutton">Setting</button>
         </span>
     </div>
-
+    
     <!-- side profile line setting -->
     <div ID="side-profile">
         <div class="profileimage-block">
@@ -40,116 +40,33 @@
         <div ID="whole-wrapper">
             <div ID="input-box">
                 <div class="wrapper">
-                    <div><input ID="input-username" type="text" name="username" placeholder="아이디를 입력하세요"  ></div>
+                    <div><input ID="inputUsername" type="text" name="username" placeholder="아이디를 입력하세요"  ></div>
                     <div ID="textbox-wrapper">
-                    <textarea  ID="textbox" cols="80" rows="4" placeholder="내용을 입력하세요."></textarea> 
-                    <button id="text-submit">확인</button>
+                    <textarea  ID="inputText" cols="80" rows="4" placeholder="내용을 입력하세요."></textarea> 
+                    <button ID="textSubmit">확인</button>
                     </div>
+
+                    <div><button id="refresh" class="homebutton">새로고침</button></div>
                 </div>
             </div>
 
 
         <!-- Output Box list setting : li~/li  -->
             
-        <ul .wrapper style=" list-style:none;-webkit-padding-start:0px;">
-            <li .wrapper>
-                <div class="output-box">
-                    <div>
-                        <span class="output-username" style="float: left">
-                            낼름너구리
-                        </span>
-                        <span class="date" style="float: right">
-                            언제썼냐/ 이 마이/야르
-                        </span>
-                    </div>
-                    <div class="output-content">
-                        <p style="word-break:break-all"> 이공계 추천에서 이과부심 그건 왜 나오는거지
-                            하튼 전
-                            1. 이과나 문과나 둘 다 어렵고
-                            2. 취업에는 이과가 유리하니까
-                            3. 이과를 추천합니다. (솔직히 공대만 추천)
-                            
-                            문과가 진짜 학문적으로 간지나는데 지갑은 간지나기 힘든 것 같습니다 ...
-                            </p>
-                    </div>
-                    <div style="text-align: left">
-                        <span class="before-from-now">몇일전</span>
-                        <div .wrapper style="text-align: right; float: right;">
-                        <button class="outputbox-button">추천 value</button>
-                        <button class="outputbox-button">비추천 value</button>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li .wrapper>
-                <div class="output-box">
-                    <div>
-                        <span class="output-username" style="float: left">
-                            쿠푸냥
-                        </span>
-                        <span class="date" style="float: right">
-                            언제썼냐/ 이 마이/야르
-                        </span>
-                    </div>
-                    <div class="output-content">
-                        <p style="word-break:break-all"> 폭주하는 러비들의 "다음주 놀토" 실트 등극 ㅋㅋㅋㅋㅋ !! >_-// 다음 주 놀토에 우리 레드벨벳 첫 번째 유닛 아이린&슬기 나와요 여러분!! </p>
-                    </div>
-                    <div style="text-align: left">
-                        <span class="before-from-now">몇일전</span>
-                        <div .wrapper style="text-align: right; float: right;">
-                        <button class="outputbox-button">추천 value</button>
-                        <button class="outputbox-button">비추천 value</button>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li .wrapper>
-                <div class="output-box">
-                    <div>
-                        <span class="output-username" style="float: left">
-                            깡팸부심
-                        </span>
-                        <span class="date" style="float: right">
-                            언제썼냐/ 이 마이/야르
-                        </span>
-                    </div>
-                    <div class="output-content">
-                        <p style="word-break:break-all"> '1일 1깡' 20일동안 실천해 봤더니... "코로나 이전의 세상은 백신이 개발되면 돌아오지만, 깡을 시청하기 전의 세상은 다시 돌아오지 않는다."</p>
-                    </div>
-                    <div style="text-align: left">
-                        <span class="before-from-now">몇일전</span>
-                        <div .wrapper style="text-align: right; float: right;">
-                        <button class="outputbox-button">추천 value</button>
-                        <button class="outputbox-button">비추천 value</button>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li .wrapper>
-                <div class="output-box">
-                    <div>
-                        <span class="output-username" style="float: left">SeoulDynasty</span>
-                        <span class="date" style="float: right">언제썼냐/ 이 마이/야르</span>
-                    </div>
-                    <div class="output-content">
-                        <p style="word-break:break-all"> 
-                            3:0 시원한 승리😎서울 다이너스티가 오버워치 리그 5월 토너먼트 준결승에 진출합니다!
-                ⠀
-                Clean 3:0 victory against @hangzhouspark_ 💪
-                We're going to the Asia May Melee semifinals!
-                ⠀
-                #OWL2020  #SeoulDynasty #TigerNation</p>
-                    </div>
-                    <div style="text-align: left">
-                        <span class="before-from-now">몇일전</span>
-                        <div .wrapper style="text-align: right; float: right;">
-                        <button class="outputbox-button">추천 value</button>
-                        <button class="outputbox-button">비추천 value</button>
-                        </div>
-                    </div>
-                </div>
-            </li>
+        <ul ID="beaconReply" class="wrapper" style=" list-style:none;-webkit-padding-start:0px;">
         </ul>
         </div>
-    <script src="index.js"></script>
+
+
+        <template ID="templateReply">
+            <li class="replybox">
+                <div class="replyName">{username}</div>
+                <p class="replyContent" style='width : 700px;'>{content}</p>
+                <div class="replyDate">{date}</div>
+            </li>
+        </template>
+
+
+<script src="index.js"></script>
 </body>
+

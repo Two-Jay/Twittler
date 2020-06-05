@@ -93,7 +93,7 @@
     border: 0px solid rgb(177, 177, 223);
     border-radius:15px;
 }
-.output-box{
+.replybox {
     box-sizing: border-box;
     box-shadow: 5px 5px 15px -10px;
     background-color :rgb(244, 244, 255);
@@ -103,6 +103,11 @@
     padding-left: 40px;
     padding-right: 40px;
     margin-top : 20px;
+}
+.replyContent {
+    width : 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #textbox-wrapper{
     border: 1px solid rgb(245, 197, 238);
@@ -114,14 +119,14 @@
     border-radius:15px;
 }
 
-#textbox {
+#inputText {
     border: 0px; 
     resize : none; 
     position : relative; top : 20px; 
     background-color: transparent;
 }
 
-#text-submit{
+#textSubmit{
     width : 60px;
     height : 80px;
     border: 0px solid skyblue;
@@ -133,7 +138,7 @@
 
 }
 
-#input-username {
+#inputUsername {
     color:gray;
     border : 1px solid rgb(245, 197, 238);
     border-radius:15p;
@@ -154,3 +159,6 @@
         color: rgba(0, 0, 0, 0.705)
 }
 
+.replyName {
+    border: transparent;
+}
